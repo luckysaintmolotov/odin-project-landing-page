@@ -85,3 +85,14 @@ img{
 #photo-container p{
     color: #212f4b;
 }
+
+#qoute{
+    text-align: center;
+    background-color: #e5e3e7;
+}
+#cta-container h3{
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+
+}
