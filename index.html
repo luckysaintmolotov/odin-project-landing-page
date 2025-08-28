@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="styles.css" rel="stylesheets">
+    <link href="styles.css" rel="stylesheet">
 
     <title>Landing Page</title>
     
@@ -11,29 +11,33 @@
 </head>
 <body>
     <header>
-        <p></p>
         
-        <div><a>Header Link 1</a>
+        <p>Header Logo</p>
+        
+        <div>  
+            <a>Header Link 1</a>
             <a>Header Link 2</a>
             <a>Header Link 3</a>
         </div>
     
     </header>
 
-    <div> 
+    <section class="container" id="hero-container"> 
 
-        <div> 
+        <div id="hero"> 
             <h1>This Website is Awesome</h1>
             <p>This website has some subtext that goes here under the main title. It;s smaller font and the color is lower contrast</p>
             <button>Sign Up</button>
         </div>
-            <img src="https://picsum.photos/500/200">
+            <aside><img src="https://picsum.photos/500/300"></aside>
 
-    </div>
-    <div>
+    </section>
+    
+
+    <section class="container" id="photo-container">
         <h2>Some information here</h2>
 
-        <div> 
+        <div id="photos"> 
 
             <div><img src="https://picsum.photos/200/?random=1">
                 <p>some words are here</p>
@@ -49,26 +53,21 @@
                 </div>
         </div>
 
-    </div>
+    </section>
     
-    <div>
-        <div> 
-            <div> <qoute>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci aut facere dolore nisi ex totam dolorem, earum error neque nobis iure laborum, omnis velit modi ea sit dolorum corporis quis!</qoute></div>
-        </div>
-    </div>
-    <div>
-        <div>
 
-                <div>
-                    <div>Call to Action! It's Time!</div>
-                    <div>Sign up for our product by clicking that button right over there!</div>
-                </div>
+    <section>
+        
+                    <qoute>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Adipisci aut facere dolore nisi ex totam dolorem, 
+                            earum error neque nobis iure laborum, 
+                            omnis velit modi ea sit dolorum corporis quis!</qoute>
+                
+                    <h1>Call to Action! It's Time!</h1>
+                    <p>Sign up for our product by clicking that button right over there!</p>
+                    <button>Sign Up</button>
 
-            <button>Sign Up</button>
-            
-            </div>
-        </div>
-
+    </section>
 
     <footer> Copyright Blyat Blyat Blyat</footer>
 
