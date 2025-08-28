@@ -1,4 +1,58 @@
-body{
-    display: flex; 
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    background-color: cadetblue;
+    padding: 35px;    
+}
+header div{
+    margin: auto;
     
+}
+
+header p,
+header a{
+    font-size: 18px;
+    margin: auto;
+
+}
+
+.container{
+    display: flex;
+    background-color: aqua;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+#hero{
+    padding: auto;
+    margin: 25px;
+    width: 30%;
+}
+aside{
+    padding: 20px;
+}
+
+img{
+    border: 5px wheat solid;
+    border-radius: 15%;
+    margin: auto;
+}
+
+#photo-container{
+    flex-direction: column;
+}
+#photos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: auto;
+    width: 75%;
+    margin: auto;
+    font-size: 15px;
+    text-align: center;
+
 }
