@@ -27,7 +27,7 @@ header a{
 #hero{
     padding: auto;
     margin: auto;
-    width: 30%;
+    width: 50%;
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
@@ -37,9 +37,9 @@ header a{
     color: #e5e7eb;
     
 }
-#hero aside{
-    padding: 20px;
-    width: 100%;
+#hero-img{
+    padding: 10px;
+    width: 40%;
 }
 button{
     background: #4949fc;
@@ -90,9 +90,18 @@ img{
     text-align: center;
     background-color: #e5e3e7;
 }
+
+#cta-container {
+    margin: auto;
+    padding: 25px;
+    align-items: center;
+    justify-content: space-around;
+}
 #cta-container h3{
     font-size: 48px;
     font-weight: 900;
     text-align: center;
-
+}
+footer{
+    text-align: center;
 }
